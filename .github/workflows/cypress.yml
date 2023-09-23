@@ -12,9 +12,7 @@ jobs:
     steps:
       - name: Checkout del repositorio
         uses: actions/checkout@v2
-
-      - name: Instalar dependencias
-        run: npm install
-
       - name: Ejecutar pruebas de Cypress
-        run: npm cypress run 
+        uses: cypress-io/github-action@v6
+        with:
+          start: npm cypress run 
