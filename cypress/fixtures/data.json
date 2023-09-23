@@ -1,0 +1,18 @@
+[{
+  "id": "1",
+  "nombre": "Messi",
+  "edad": "35",
+  "email": "messi@example.com"
+},
+{
+  "id": "2",
+  "nombre": "Ronaldo",
+  "edad": "38",
+  "email": "ronaldo@example.com"
+},
+{
+"id": "3",
+"nombre": "Mbappe",
+"edad": "24",
+"email": "mbappe@example.com"
+}]
