@@ -15,4 +15,6 @@ jobs:
       - name: Ejecutar pruebas de Cypress
         uses: cypress-io/github-action@v6
         with:
-          start: npm cypress run 
+          build: npm run build
+          start: npm cypress run
+          browser: chrome
