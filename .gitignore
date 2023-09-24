@@ -4,5 +4,4 @@
 /cypress/reports
 /mochawesome-report
 /node_modules
-/package-lock.json
 .idea
