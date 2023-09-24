@@ -1,20 +1,10 @@
-name: cypress
-on:
-  push:
-    branches: [ "master" ]
-  pull_request:
-    branches: [ "master" ]
-
+name: Cypress tests
+on: push
 jobs:
-  cypress:
-    runs-on: cypress/included:13.2.0  # Puedes cambiar la imagen según tus necesidades
-
+  cypress-run:
+    runs-on: ubuntu-22.04
     steps:
-      - name: Checkout del repositorio
-        uses: actions/checkout@v2
-      - name: Ejecutar pruebas de Cypress
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Cypress run
         uses: cypress-io/github-action@v6
-        with:
-          build: npm run build
-          start: npm cypress run
-          browser: chrome
