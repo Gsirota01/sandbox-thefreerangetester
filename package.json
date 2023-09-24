@@ -1,4 +1,11 @@
 {
+  "name": "port-cypress",
+  "version": "1.0.0",
+  "description": "Pruebas sobre la sandbox de automatizacion del sitio thefreerangetester.com",
+  "main": "free_range_tester.cy.js",
+  "scripts": {
+    "test": "cypress run"
+  },
   "dependencies": {
     "mochawesome": "^7.1.3",
     "cypress": "^13.2.0"
