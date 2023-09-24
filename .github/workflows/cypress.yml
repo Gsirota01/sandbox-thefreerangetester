@@ -8,9 +8,6 @@ jobs:
         uses: actions/checkout@v4
       - name: Cypress run
         uses: cypress-io/github-action@v6
-        with:
-          start: npm start
-          wait-on: 'http://localhost:3000'
-          record: true
     env:
       CYPRESS_RECORD_KEY: ${{ secrets.CYPRESS_RECORD_KEY }}
+      PROJECT_ID: ${{secrets.PROJECT_ID}}
