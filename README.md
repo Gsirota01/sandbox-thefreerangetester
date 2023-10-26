@@ -11,17 +11,20 @@ Para probar este proyecto en tu entorno local, sigue estos pasos:
 ```bash
 git clone https://github.com/Gsirota01/sandbox-thefreerangetester
 ```
-2. Instalar las dependencias
+
+2. Instalar node https://nodejs.org/en
+
+3. Instalar las dependencias
 ```bash
 npm install
 ```
 
-3. Ejecutar las pruebas de Cypress y genera el reporte:
+4. Ejecutar las pruebas de Cypress y generar el reporte:
 ```bash
 npm test
 ```
 
-4. Abrir el archivo de reporte Mochawesome en tu navegador
+5. Abrir el archivo de reporte Mochawesome en tu navegador
 ```
 ./mochawesome-report/mochawesome.html
 ```
